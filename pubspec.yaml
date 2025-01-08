@@ -1,0 +1,26 @@
+name: flutter_location
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geocoding: ^3.0.0
+  geocode: ^1.0.3
+  geolocator: ^13.0.2
+  flutter_libphonenumber: ^2.5.0
+  country_phone_validator: ^1.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
